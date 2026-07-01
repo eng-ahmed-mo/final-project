@@ -36,11 +36,11 @@ export default function App() {
           style: { fontSize: "14px" },
         }}
       />
-        <CartContext.Provider value={{ cartItems, setCartItems }}>
-          <WishlistContext.Provider value={{ wishlist, setWishlist }}>
-            <RouterProvider router={routes} />
-          </WishlistContext.Provider>
-        </CartContext.Provider>
+      <CartContext.Provider value={{ cartItems, setCartItems }}>
+        <WishlistContext.Provider value={{ wishlist, setWishlist }}>
+          <RouterProvider router={routes} />
+        </WishlistContext.Provider>
+      </CartContext.Provider>
     </QueryClientProvider>
   );
 }

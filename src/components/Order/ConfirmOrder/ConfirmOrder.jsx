@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaCheck } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { ShowToastError } from "../../showToastError/showToastError ";
+import { ShowToastError } from "../../ShowToastError/ShowToastError ";
 
 export default function ConfirmOrder() {
     const [checked, setChecked] = useState(false);

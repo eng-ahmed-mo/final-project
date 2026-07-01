@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import StarRating from "../../StarRating/StarRating";
-import BtnsCardSingleShop from "../btnsCardSingleShop/BtnsCardSingleShop";
+import BtnsCardSingleShop from "../BtnsCardSingleShop/BtnsCardSingleShop";
 
 
 export default function ContentCardSingle({ product, selectedColorI, setSelectedColorI, productItem, setProductItem }) {

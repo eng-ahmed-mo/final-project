@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { WishlistContext } from "../WishlistContaxt/WishlistContaxt";
 import Card from "../Card/Card";
-import WishlistEmpty from "../WishListEmpty/WishListEmpty";
+import WishlistEmpty from "../WishlistEmpty/WishlistEmpty";
 
 
 

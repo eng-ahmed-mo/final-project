@@ -9,7 +9,7 @@ import * as Yup from "yup";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { axiosConfig } from "../../../utils/axiosConfig";
 import { useParams } from "react-router-dom";
-import { ShowToastError } from "../../showToastError/showToastError ";
+import { ShowToastError } from "../../ShowToastError/ShowToastError ";
 import { ShowToastSuccess } from "../../ShowToastSuccess/ShowToastSuccess";
 
 export default function AddComment({ refetchReviews, product }) {

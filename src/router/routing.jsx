@@ -4,12 +4,12 @@ import Layout from "../Layout/Layout";
 import Error from "../pages/Error/Error";
 import Shop from "../pages/shop/Shop";
 import SingleShop from "../pages/singleShop/SingleShop";
-import ShopCart from "../pages/ShopCart/ShopCart";
+import ShopCart from "../pages/shopCart/ShopCart";
 import Wishlist from "../pages/Wishlist/Wishlist";
 import CheckOut from "../pages/checkOut/CheckOut";
 import Search from "../pages/search/Search";
 import LogIn from "../pages/login/LogIn";
-import Register from "../pages/register/register";
+import Register from "../pages/register/Register";
 
 
 export const routes = createBrowserRouter([
